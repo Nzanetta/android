@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MediaLoginActivity">
+
+    <!-- Fondo de la pantalla -->
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/imagen_1"
+        android:scaleType="centerCrop"
+        />
+
+    <!-- Contenedor principal -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#A0504E4E"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!-- Logo superior -->
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/logo" />
+
+        <!-- Sección de inicio de sesión con Principal -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <!-- Ícono de Google -->
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:contentDescription="Logo de CSGO"
+                android:src="@drawable/logo_csgo" />
+
+            <!-- Botón de inicio de sesión con Google -->
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Iniciar sesión"
+                android:paddingStart="8dp"
+                android:background="@drawable/btn_redondo_login" />
+        </LinearLayout>
+
+        <!-- Sección de inicio de sesión con Google -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <!-- Ícono de Google -->
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="32dp"
+                android:src="@drawable/logo_google"
+                android:contentDescription="Logo de Google" />
+
+            <!-- Botón de inicio de sesión con Google -->
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Iniciar sesión con Google"
+                android:paddingStart="8dp"
+                android:background="@drawable/btn_redondo_google" />
+        </LinearLayout>
+
+        <!-- Sección de inicio de sesión con Facebook -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <!-- Ícono de Google -->
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:contentDescription="Logo de Facebook"
+                android:src="@drawable/logo_facebook" />
+
+            <!-- Botón de inicio de sesión con Google -->
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Iniciar sesión con Facebook"
+                android:paddingStart="8dp"
+                android:background="@drawable/btn_redondo_facebook" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
