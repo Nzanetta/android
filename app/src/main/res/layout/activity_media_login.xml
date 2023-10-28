@@ -48,8 +48,9 @@
                 android:contentDescription="Logo de CSGO"
                 android:src="@drawable/logo_csgo" />
 
-            <!-- Botón de inicio de sesión con Google -->
+            <!-- Botón de inicio de sesión con CSGO -->
             <Button
+                android:id="@+id/btnLogin"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -102,7 +103,7 @@
                 android:contentDescription="Logo de Facebook"
                 android:src="@drawable/logo_facebook" />
 
-            <!-- Botón de inicio de sesión con Google -->
+            <!-- Botón de inicio de sesión con Facebook -->
             <Button
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"

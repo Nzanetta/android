@@ -41,7 +41,7 @@
             android:layout_marginBottom="10dp"
             android:background="@drawable/txt_redondo"
             android:gravity="center"
-            android:hint="Correo Electrónico"
+            android:hint="Ingrese Correo Electronico"
             android:inputType="textEmailAddress"
             android:padding="10dp"
             android:textColorHint="@color/white" />
@@ -61,35 +61,16 @@
             android:padding="10dp"
             android:textColorHint="@color/white" />
 
-        <!-- Interruptor "Recuérdame" -->
-        <Switch
-            android:id="@+id/swRecuerdame"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:gravity="end"
-            android:text="Recuérdame"
-            android:textColor="@color/white" />
 
         <!-- Botón de inicio de sesión -->
         <Button
-            android:id="@+id/btnIniciar"
+            android:id="@+id/btnRegistrar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:background="@drawable/btn_redondo_login"
-            android:text="Iniciar Sesión" />
-
-        <Button
-            android:id="@+id/btnRegistrar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="¿Aún no tienes cuenta?"
-            android:textColor="#FF9800"
-            android:textSize="15dp"
-            android:background="@android:color/transparent" />
+            android:text="Registrar" />
 
 
     </LinearLayout>

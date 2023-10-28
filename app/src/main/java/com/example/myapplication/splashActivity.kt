@@ -6,20 +6,22 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
 
-class MediaLoginActivity : AppCompatActivity() {
+class splashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_media_login)
+        setContentView(R.layout.activity_splash)
 
-        login()
+        acceder()
     }
 
-    private fun login() {
-        val btnLogin = findViewById<Button>(R.id.btnLogin)
-        btnLogin.setOnClickListener {
+    private fun acceder() {
+        val btnAcceder = findViewById<Button>(R.id.btnAcceder)
+        btnAcceder.setOnClickListener {
             Toast.makeText(applicationContext, "Accediendo a la aplicación", Toast.LENGTH_SHORT).show()
-            val ventanaMain = Intent(applicationContext, MainActivity::class.java)
-            startActivity(ventanaMain)
-         }
-    }
+            val mediaLoginActivity = Intent(applicationContext, MediaLoginActivity::class.java)
+            startActivity(mediaLoginActivity )
+}}
 }
+
+
+
