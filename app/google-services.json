@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "521217401925",
+    "project_id": "csgoapp-550db",
+    "storage_bucket": "csgoapp-550db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521217401925:android:e30fa33494f76bb3c0ef2c",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC23ZWpHntbmSzjvdpijVZYXa68S0itkfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

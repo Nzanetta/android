@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20dp"
+        android:textSize="25dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"
         android:gravity="center_vertical"
@@ -24,14 +24,14 @@
         android:layout_width="match_parent"
         android:layout_margin="16dp"
         android:layout_height="wrap_content"
-        android:hint="Ingresar Nombre del Arma"/>
+        android:hint="Nombre del Arma"/>
 
     <EditText
         android:id="@+id/edEmail"
         android:layout_width="match_parent"
         android:layout_margin="16dp"
         android:layout_height="wrap_content"
-        android:hint="Ingresar Descripción"/>
+        android:hint="Descripción"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -42,7 +42,7 @@
             android:id="@+id/btnAdd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Agregar Arma"
+            android:text="Agregar"
             android:textAllCaps="false"
             android:background="@drawable/btn_redondo_login"
             />
@@ -52,7 +52,7 @@
             android:id="@+id/btnView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ver Armas"
+            android:text="Listar"
             android:textAllCaps="false"
             android:background="@drawable/btn_redondo_login"
             />

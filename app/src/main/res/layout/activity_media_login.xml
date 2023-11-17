@@ -78,6 +78,7 @@
 
             <!-- Botón de inicio de sesión con Google -->
             <Button
+                android:id="@+id/btnGoogle"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -105,6 +106,7 @@
 
             <!-- Botón de inicio de sesión con Facebook -->
             <Button
+                android:id="@+id/btnFacebook"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"

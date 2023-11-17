@@ -33,7 +33,7 @@
 
         <!-- Campo de correo electrónico -->
         <EditText
-            android:id="@+id/txtEmail"
+            android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -48,7 +48,7 @@
 
         <!-- Campo de contraseña -->
         <EditText
-            android:id="@+id/txtPass"
+            android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -74,7 +74,7 @@
 
         <!-- Botón de inicio de sesión -->
         <Button
-            android:id="@+id/btnIniciar"
+            android:id="@+id/btn_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -90,6 +90,7 @@
             android:textColor="#FF9800"
             android:textSize="15dp"
             android:background="@android:color/transparent" />
+
 
 
     </LinearLayout>

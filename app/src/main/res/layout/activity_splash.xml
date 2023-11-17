@@ -33,11 +33,13 @@
 
         <Button
             android:id="@+id/btnAcceder"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
             android:text="ACCEDER"
             android:background="@drawable/btn_redondo_login"
-            android:layout_margin="8dp"/>
+            android:layout_margin="20dp"/>
+
+
 
 
         </LinearLayout>

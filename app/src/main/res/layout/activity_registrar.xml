@@ -16,6 +16,8 @@
         android:scaleType="centerCrop"
         />
 
+
+
     <!-- Contenedor principal -->
     <LinearLayout
         android:layout_width="match_parent"
@@ -33,7 +35,7 @@
 
         <!-- Campo de correo electrónico -->
         <EditText
-            android:id="@+id/txtEmail"
+            android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -41,14 +43,14 @@
             android:layout_marginBottom="10dp"
             android:background="@drawable/txt_redondo"
             android:gravity="center"
-            android:hint="Ingrese Correo Electronico"
+            android:hint="Correo Electronico"
             android:inputType="textEmailAddress"
             android:padding="10dp"
             android:textColorHint="@color/white" />
 
         <!-- Campo de contraseña -->
         <EditText
-            android:id="@+id/txtPass"
+            android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -64,7 +66,7 @@
 
         <!-- Botón de inicio de sesión -->
         <Button
-            android:id="@+id/btnRegistrar"
+            android:id="@+id/btn_register"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
